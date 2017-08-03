@@ -1,0 +1,87 @@
+body,html{
+        margin:0px;
+        padding:0px;
+        
+
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
+}
+
+
+header{
+    background-color: #2d8941;
+    color: white;
+    /* margin: 5px; */
+    padding:20px;
+    /* border: 3px brown solid; */
+    overflow: hidden;
+    font-family: 'Faustina', serif;
+
+}
+
+header .site_title{
+    font-size:20px;
+    font-weight:bold;
+    /* border: 1px solid white; */
+    /* width:50%;  */
+    display: inline-block;
+    vertical-align: top;
+    padding:0px 20px 0px 0px
+    /* float:left; */
+
+}
+header ul{
+    /* width: 40%;  */
+    /* border: 1px solid white; */
+    display: inline-block;
+     float:right; 
+    vertical-align: top;
+    margin: 0px;
+    overflow: hidden;
+}
+
+header ul li{
+    font-weight:bold;
+    font-size: 15px;
+    display:inline-block;
+    float: left;
+    margin-right: 25px;
+}
+
+section{
+    /* border: 1px solid #000; */
+    padding:10 px 30px;
+
+}
+
+section#left_section{
+     float:left; 
+    width:70px;
+    height:600px;
+    background-color: brown;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+section#right_section{
+       float:left;   
+    width: 90%;
+    font-family: 'Droid Serif', serif;
+    font.size:30px;
+
+}
+
+br{ clear:both;}
+footer{
+    min-width:100%;
+    padding:10px 20px;
+    background-color: yellow;
+    color:black;
+    text-align: center;
+}
